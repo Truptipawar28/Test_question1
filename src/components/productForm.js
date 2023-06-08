@@ -50,7 +50,7 @@ function ProductForm({ onAddProduct }) {
           onChange={handleProductNameChange}
         />
   
-        <label htmlFor="productPrice">Product Price:</label>
+        <label htmlFor="productPrice">Selling Price:</label>
         <input
           type="number"
           id="productPrice"
@@ -58,7 +58,7 @@ function ProductForm({ onAddProduct }) {
           onChange={handleProductPriceChange}
         />
   
-        <button type="submit">Add</button>
+        <button type="submit">Add Product</button>
       </form>
     );
   }
