@@ -1,0 +1,13 @@
+.product-list {
+    margin-bottom: 20px;
+  }
+  
+  .product-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .product-list li {
+    margin-bottom: 5px;
+  }
+  
